@@ -1,0 +1,42 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="338.167" Width="269.505">
+    <Grid ShowGridLines="False" Background="#FFCBC4E8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Margin="3" Padding="5" Text="12490,32" FontSize="14" Background="#FF6748F5" LineStackingStrategy="BlockLineHeight" TextAlignment="Right" LineHeight="36" FontWeight="Bold" Foreground="#FFCBC4E8"  />
+        <UniformGrid Rows="6" Columns="4" Grid.Row="1">
+            <Button Content="%" Background="#FFB09FFD" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="C" Background="#FFB09FFD" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="CE" Background="#FFB09FFD" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="()" Background="#FFB09FFD" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="1/x" Background="#FFB09FFD" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="x^2" Background="#FFB09FFD" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="√x" Background="#FFB09FFD" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="/" Background="#FFB09FFD" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="7" Background="#FFCFC6F5" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="8" Background="#FFCFC6F5" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="9" Background="#FFCFC6F5" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="*" Background="#FFB09FFD" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="4" Background="#FFCFC6F5" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="5" Background="#FFCFC6F5" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="6" Background="#FFCFC6F5" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="-" Background="#FFB09FFD" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="1" Background="#FFCFC6F5" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="2" Background="#FFCFC6F5" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="3" Background="#FFCFC6F5" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="+" Background="#FFB09FFD" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="+/-" Background="#FFCFC6F5" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="0" Background="#FFCFC6F5" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="," Background="#FFCFC6F5" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+            <Button Content="=" Background="#FFB09FFD" BorderBrush="#FF6748F5" FontFamily="Segoe UI Semibold"/>
+        </UniformGrid>
+    </Grid>
+</Window>
